@@ -6,19 +6,19 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/', function(req, res, next) {
+router.get('/project', function(req, res, next) {
   res.render('project', { title: 'project' });
 });
 
-router.get('/', function(req, res, next) {
+router.get('/services', function(req, res, next) {
   res.render('services', { title: 'services' });
 });
 
-router.get('/', function(req, res, next) {
+router.get('/about', function(req, res, next) {
   res.render('about', { title: 'about' });
 });
 
-router.get('/', function(req, res, next) {
+router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'contact' });
 });
 
